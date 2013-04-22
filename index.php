@@ -7,7 +7,6 @@
 		}							
 	}
 	else{
-	session_start();
 		include('views/login.php');
 	}
 		
