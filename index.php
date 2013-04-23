@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	if(isset($_GET['opt'])){
 		switch($_GET['opt']){
 			case "index":
